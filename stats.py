@@ -15,7 +15,6 @@ def get_individual_word_count(book_text):
             char_dict[character] = 1
     return char_dict
 
-
 # Print report
 def return_report(char_dict):
     dict_list = []
