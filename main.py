@@ -17,7 +17,7 @@ def main():
         sys.exit(1)
     else:
         path_to_book = user_input[1]
-        
+
     # Gets sorted list from letter count dict
     sorted_list = return_report(get_individual_word_count(get_book_text(path_to_book)))
 
@@ -27,7 +27,7 @@ def main():
     get_total_words(get_book_text(path_to_book))
     print("--------- Character Count -------")
 
-    # Formats sorted list
+    # Formats and prints sorted list data
     for dict in sorted_list:
         char = dict["char"]
         if (char.isalpha() == False):
