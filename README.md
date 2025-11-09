@@ -30,7 +30,8 @@ It’s great for exploring text statistics and practicing Python file and text h
 python3 main.py books/frankenstein.txt
 ```
 
-Output:
+**Output:**
+```bash
     ============ BOOKBOT ============
     Analyzing book found at books/mobydick.txt...
     ----------- Word Count ----------
@@ -41,3 +42,4 @@ Output:
     a: 79224
     ...
     ============= END ===============
+```
