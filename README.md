@@ -24,17 +24,20 @@ It’s great for exploring text statistics and practicing Python file and text h
 ---
 
 ## Example
-Input:
-    python3 main.py books/frankenstein.txt
 
-Output:
-    ============ BOOKBOT ============
-    Analyzing book found at books/mobydick.txt...
-    ----------- Word Count ----------
-    Found 215838 total words
-    --------- Character Count -------
-    e: 119354
-    t: 89875
-    a: 79224
-    ...
-    ============= END ===============
+**Input:**
+```bash
+python3 main.py books/frankenstein.txt
+
+# Output:
+
+============ BOOKBOT ============
+Analyzing book found at books/mobydick.txt...
+----------- Word Count ----------
+Found 215838 total words
+--------- Character Count -------
+e: 119354
+t: 89875
+a: 79224
+...
+============= END ===============
