@@ -28,9 +28,9 @@ It’s great for exploring text statistics and practicing Python file and text h
 **Input:**
 ```bash
 python3 main.py books/frankenstein.txt
+```
 
-# Output:
-
+**Onput:**
 ============ BOOKBOT ============
 Analyzing book found at books/mobydick.txt...
 ----------- Word Count ----------
