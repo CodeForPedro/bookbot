@@ -14,3 +14,19 @@ def get_individual_word_count(book_text):
         else:
             char_dict[character] = 1
     return char_dict
+
+
+# Print report
+def return_report(char_dict):
+    dict_list = []
+    for key in char_dict:
+        my_dict = {}
+        my_dict["char"] = key
+        my_dict["num"] = char_dict[key]
+        dict_list.append(my_dict)
+
+    def sort_on(items):
+        return items["num"]
+
+    dict_list.sort(reverse=True, key=sort_on)
+    return dict_list
